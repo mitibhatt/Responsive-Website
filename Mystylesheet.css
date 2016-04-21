@@ -1,0 +1,68 @@
+aside, article, section, header, footer, nav {
+    display: block;
+}
+div, section, article, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+        margin: 0 auto 2em;
+    font: 100% Georgia, "Times New Roman", Times, serif;
+}
+header {
+    background: rgb(76, 67, 65);
+    margin-bottom: 16px;
+    height: 96px;
+
+}
+h1 {
+
+
+    color: white;
+text-align:center;
+}
+
+.section1
+{
+    float: left;
+    padding-left: 2%;
+    width: 60%;
+
+}
+.section2
+{
+
+    float: right;
+    width: 34%;
+
+
+}
+
+
+img{
+    float: left;
+    margin: 0 1em 0 0;
+}
+p::first-letter{
+font-variant: all-petite-caps;
+    font-size: xx-large;
+}
+.news {
+    width: 44.5%;
+    padding: 1.75%;
+    font-size: 90%;
+    line-height: 1.8;
+    background: rgb(237,226,197);
+    margin-right: 4%;
+    float: left;
+    padding-top: 2%;
+}
+.news + .news {
+    margin-right: 0;
+}
